@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900|Roboto:300,400,700,900');
+
+* {
+    color: #303030;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 0;
+}
+
+body {
+    background-color: #eeeeee;
+    width: 1500px;
+    margin: auto;
+}
+
+header {
+    width: 1200px;
+    margin: 40px auto 0 auto;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    display: inline-block;
+    margin: 0 0;
+}
+
+ul {
+    margin: 0 0;
+    padding: 0 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 50px;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 520px;
+    margin-right: 35px;
+}
+
+.menu {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -3px;
+}
+
+main {
+    width: 1200px;
+    margin: 30px auto 0 auto;
+}
+
+.h1 {
+    font-family:'Raleway', sans-serif;
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: right;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: right;
+    line-height: 1.5;
+    margin-left: 45px;
+    margin-bottom: 16px;
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #e10011;
+    text-align: right;
+    line-height: 1.5;
+    margin-top: 16px;
+}
+
+.headphones {
+    float: right;
+    margin-right: 115px;
+    margin-left: 104px;
+    margin-bottom: 80px;
+}
+
+.ellipse {
+    padding: 0 3px;
+}
+
+.slider-nav {
+    text-align: center;
+    display: inline-block;
+    width: 1200px;
+}
+
+.product {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.h2product {
+    font-family:'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.5;
+    padding-top: 110px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.img-product {
+
+}
+
+.pproduct {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+.speaker {
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.beats {
+    margin-bottom: 35px;
+}
+
+.minimal {
+    margin-right: 35px;
+    padding-bottom: 70px;
+}
+
+.shoes {
+    margin-right: 35px;
+    padding-bottom: 70px;
+}
+
+.tumblr {
+    padding-bottom: 70px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 95px;
+}
+
+.new {
+    font-family:'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.text3 {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    resize: none;
+    color: #303030;
+    display: inline-block;
+    overflow: hidden;
+    padding: 24.5px 49px;
+    border-radius: 50px 0 0 50px;
+    text-align: left;
+}
+
+.button::placeholder {
+    color: #979797;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.button2 {
+    border: none;
+    background: none;
+    position: absolute;
+    padding: 0;
+}
+
+.area {
+    margin-right: 202px;
+}
+
+.twe {
+    margin-left: 20px;
+}
+
+.ytu {
+    margin: 0 20px;
+}
+
+.social {
+    margin-top: 110px;
+}
+
+.copy {
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 55px;
+    color: #a3a3a3;
+    margin-bottom: 30px;
+}
+
+bold {
+    color: #494949;
+}
