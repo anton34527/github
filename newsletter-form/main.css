@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
+
+main {
+    background-color: #bac5db;
+    width: 800px;
+    height: 600px;
+    margin: 5% auto;
+    position: relative;
+}
+
+div {
+    width: 670px;
+    height: 385px;
+    margin-top: 105px;
+    margin-left: 70px;
+    display: inline-block;
+    background-color: #353a45;
+    border-radius: 15px;
+}
+
+.icon {
+    position: absolute;
+    left: 347px;
+    top: 57px;
+}
+
+.close {
+    position: absolute;
+    right: 69px;
+    top: 114px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #538fff;
+    margin: 80px 0 0 210px;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0 0 90px;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #a9a9a9;
+    margin: 35px 0 0 165px;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #a9a9a9;
+    border-radius: 8px;
+    border: none;
+    background-color: #f0f0f0;
+    height: 55px;
+    width: 370px;
+    box-sizing: border-box;
+    padding-left: 21px;
+    padding-bottom: 6px;
+    margin: 40px 0 0 60px;
+}
+
+button {
+    border: none;
+    width: 160px;
+    height: 55px;
+    background-color: #538fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+    color: white;
+    margin: 38px 0 0 10px;
+}
+
+button:hover {
+    background-color: #324B96;
+}
