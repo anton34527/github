@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.main {
+    width: 876px;
+    height: 627px;
+    background-image: url("img/bg_t.jpg");
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+    padding-top: 25px;
+}
+.inner {
+    width: 750px;
+    margin: 0 auto;
+}
+.inner:before,
+.inner:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.menu--mt {
+    margin-top: 10px;
+}
+.menu--right {
+    float: right;
+}
+.menu__item {
+    margin: 25px;
+    text-decoration: none;
+    color: #e8e6e4;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.menu__item:hover {
+    color: white;
+    border-bottom: 1px white solid;
+    padding-bottom: 2px;
+}
+.menu__item--first_item {
+    margin-left: 0;
+}
+.menu__item--last-item {
+    margin-right: 0;
+}
+.section {
+    width: 750px;
+    height: 430px;
+    background: white;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section__bg1 {
+    width: 780px;
+    height: 410px;
+    background: white   ;
+    z-index: 2;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section__bg2 {
+    width: 810px;
+    height: 390px;
+    background: white;
+    z-index: 1;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.right:before,
+.right:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.section__close {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+.right__new {
+    width: 40px;
+    height: 21px;
+    padding-top: 4px;
+    background-color: #ffa60d;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 45px 175px 0 0;
+    color: white;
+    text-align: center;
+}
+
+.right__text {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.right__text-blue {
+    color: #538fff;
+}
+
+.right__star {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.stars {
+    display: inline-block;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars input + label {
+    float: right;
+    margin: 2px;
+    width: 11px;
+    height: 11px;
+    background: url("img/star2.jpg");
+    cursor: pointer;
+}
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+    background: url("img/star1.jpg");
+}
+
+.right__cost {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.right__size {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.right__size-numb-n {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 0 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.right__size-numb-na {
+    display: inline-block;
+    padding: 0 4px;
+    margin: 0 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.right__size-numb-n:hover {
+    border: 1px solid #000000;
+    margin: -1px 6px;
+}
+.right__size-numb-na:hover {
+    border: 1px solid #000000;
+    margin: -1px 6px;
+}
+
+.right__size-numb-n-first:hover {
+    margin-left: -1px;
+}
+
+.right__size-numb {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.right__size-numb-n-first {
+    margin-left: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.right__button {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 5px;
+    color: black;
+    display: block;
+}
+
+.right__button:hover {
+    border: 1px solid black;
+    width: 120px;
+    height: 30px;
+    background-color: #a200b8;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 5px;
+    color: white;
+    display: block;
+}
