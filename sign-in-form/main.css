@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    width: 800px;
+    height: 600px;
+    background-color: #e5eeee;
+    margin: auto;
+    position: relative;
+}
+
+.bg {
+    background: url("img/body.png");
+    width: 434px;
+    height: 530px;
+    margin: 50px 200px 0;
+    display: inline-block;
+    z-index: 2;
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
+    background: url("img/shadow.png");
+    width: 466px;
+    height: 183px;
+    bottom: 0;
+    left: 184px;
+    z-index: 1;
+}
+
+.main {
+    width: 68%;
+    height: 440px;
+    margin: 11% 20%;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+p {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e1c2f1;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+p:hover {
+    color: white;
+    border-bottom: #e66a64 solid 2px;
+    margin-bottom: -2px;
+}
+
+.text {
+    margin-top: 46px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffffe8;
+}
+
+.area {
+    background-color: transparent;
+    width: 250px;
+    height: 40px;
+    border: #a78bcb solid 1.5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+#check {
+    vertical-align: middle;
+}
+.check {
+    margin-top: 15px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.9;
+}
+.right__main_button {
+    border: 1px solid #23ae92;
+    width: 260px;
+    height: 40px;
+    background-color: #23ae92;
+    margin-left: 0;
+    margin-top: 30px;
+    color: white;
+    display: block;
+    font-size: 18px;
+}
+
+.right__main_button:hover {
+    border: 1px solid rgba(35, 174, 146, 0.8);
+    width: 260px;
+    height: 40px;
+    background-color: rgba(35, 174, 146, 0.81);
+    color: white;
+    display: block;
+}
+.pass {
+    font-size: 13px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.31);
+    margin-top: 30px;
+    margin-right: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.acc {
+    font-size: 13px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.31);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+}
