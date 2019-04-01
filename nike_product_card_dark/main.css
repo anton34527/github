@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.main__bg {
+    background-image: url("img/main-bg.jpg");
+    width: 800px;
+    height: 600px;
+    margin: 0 30%;
+    display: inline-block;
+}
+.main__bg2 {
+    background-image: url("img/bg.png");
+    width: 793px;
+    height: 513px;
+    margin: 30px 0;
+    display: inline-block;
+}
+.left__main {
+    width: 415px;
+    height: 370px;
+    margin: 70px 0 0 75px;
+    display: inline-block;
+}
+.left__main-logo {
+    width: 65px;
+    margin: 0;
+}
+.left__main-nike {
+    margin: 80px 0 0 20px;
+}
+.left__main-bullets {
+    margin: 75px 0 0 170px;
+    width: 100px;
+}
+.right__main {
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 70px;
+}
+.right__main-h1 {
+    font-size: 24px;
+    color: #e1e1e1;
+    font-weight: 400;
+    margin: 0;
+    opacity: 0.8;
+}
+.right__main-p {
+    font-size: 14px;
+    color: #e1e1e1;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+    opacity: 0.5;
+}
+.right__main-stars {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25px 80px 0 0;
+}
+.right__main-stars input {
+    display: none;
+}
+.right__main-stars input + label {
+    float: right;
+    margin: 2px;
+    width: 12px;
+    height: 12px;
+    background: url("img/star1.png");
+    cursor: pointer;
+}
+.right__main-stars input:checked ~ label,
+.right__main-stars label:hover,
+.right__main-stars label:hover ~ label {
+    background: url("img/star2.png");
+}
+.right__main-size{
+    display: inline-block;
+    border: 1px solid #4f5560;
+    background-color: #111a28;
+    color: #93969b;
+    width: 70px;
+    height: 30px;
+    margin: 25px 0 0 0;
+}
+.right__main-qty {
+    display: inline-block;
+    border: 1px solid #4f5560;
+    background-color: #111a28;
+    color: #93969b;
+    width: 70px;
+    height: 30px;
+    margin: 0 0 0 0;
+}
+
+.right__main_button {
+    border: 1px solid #4f5560;
+    width: 185px;
+    height: 40px;
+    background-color: #202835;
+    margin-left: 0;
+    margin-top: 30px;
+    color: #93969b;
+    display: block;
+}
+
+.right__main_button:hover {
+    border: 1px solid #4f5560;
+    width: 185px;
+    height: 40px;
+    background-color: #323f54;
+    color: #93969b;
+    display: block;
+}
