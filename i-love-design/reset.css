@@ -38,14 +38,14 @@ html {
 
 /* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
 
-/* Responsive images and other embedded objects
+/* Responsive img and other embedded objects
 */
 img,
 object,
 embed {max-width: 100%;}
 
 /*
-   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   Note: keeping IMG here will cause problems if you're using foreground img as sprites.
 	 In fact, it *will* cause problems with Google Maps' controls at small size.
 	If this is the case for you, try uncommenting the following:
 
@@ -128,7 +128,7 @@ button, input, select, textarea {margin: 0;}
 button,
 input[type=button] {width: auto; overflow: visible;}
 
-/* scale images in IE7 more attractively */
+/* scale img in IE7 more attractively */
 .ie7 img {-ms-interpolation-mode: bicubic;}
 
 /* prevent BG image flicker upon hover

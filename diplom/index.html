@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="background-village hidden"></div>
+<div class="mobile-nav hidden">
+
+    <ul class="mobile-nav-list">
+        <li class="mobile-nav-item current">
+            <a href="/" class="mobile-nav-link">Сандель</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#contact-form" class="mobile-nav-link">Хим.анализ</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#catalog" class="mobile-nav-link">Каталог фильтров</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#services" class="mobile-nav-link">Помощь в подборе</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#advantages" class="mobile-nav-link">Преимущества</a>
+        </li>
+        <li class="mobile-nav-item">
+            <a href="#feedback" class="mobile-nav-link">Видеоотзывы</a>
+        </li>
+    </ul>
+</div>
+
+<header class="header" id="header">
+    <div class="box mobile-navigation hidden">
+
+        <a href="/" class="nav-link">Сандель</a>
+
+        <div id="menuToggle">
+            <input type="checkbox"/>
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+        </div>
+    </div>
+    <nav class="box navigation" id="navigation">
+        <ul class="nav-list">
+            <li class="nav-item current">
+                <a href="/" class="nav-link">Сандель</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-form" class="nav-link">Хим.анализ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#catalog" class="nav-link">Каталог фильтров</a>
+            </li>
+            <li class="nav-item">
+                <a href="#services" class="nav-link">Помощь в подборе</a>
+            </li>
+            <li class="nav-item">
+                <a href="#advantages" class="nav-link">Преимущества</a>
+            </li>
+            <li class="nav-item">
+                <a href="#feedback" class="nav-link">Видеоотзывы</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="banner" id="banner">
+    <div class="box banner-box">
+        <h1>фильтры для очистки воды из скважин в иркутске!</h1>
+        <p>Избавим об опасности ухудшения здоровия, устранив загрязнения в 40-200 раз, а именно:
+            запаха, нитратов, большого количества железа и различных бактерий!</p>
+        <a href="#feedback" class="red-button">Посмотреть видео</a>
+    </div>
+</section>
+
+<section class="contact-form" id="contact-form">
+    <div class="box contact-box">
+        <div class="contact-box__left">
+            <img src="img/girl.png" alt="Girl" class="contact-box__left__img">
+        </div>
+        <div class="contact-box__right">
+            <h2>Хим. анализ с официальным заключением
+                <br>
+                о пригодности воды для питья
+            </h2>
+            <form action="" class="contact-box__right__form">
+                <h2>ПОЛУЧИТЕ КОНСУЛЬТАЦИЮ</h2>
+                <p>Об основных загрязнителях воды от
+                    <br>
+                    испытательного центра
+                </p>
+                <input type="tel" id="tel" name="tel" placeholder="Введите Телефон*">
+                <button type="submit" class="red-button">Получить консультацию</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="catalog" id="catalog">
+
+    <div class="widget-item-popup hidden">
+        <span class="close-span">&#215</span>
+        <div class="widget-item-popup-img">
+            <img src="img/widget-item.png" alt="#">
+        </div>
+
+        <h4>AQUADEAN PRO-S</h4>
+        <p>самый компактный и экономичный фильтр для небольшого дома (семья до 4 человек), дачи, бани. Удаляет железо и
+            жесткость из воды, производительность 1,2 куб.м/ч, пиковая до 1,8 куб.м/ч. Расход соли на регенерацию всего
+            0,5 кг.</p>
+        <div class="ten-k">10 000<span>тыс</span></div>
+    </div>
+
+    <div class="box catalog-box">
+        <div class="catalog-box-header">
+            <h2>каталог</h2>
+            <p>Выберите виджет из списка, или закажите свой собственный</p>
+        </div>
+        <div class="slider catalog-slider">
+            <div class="catalog-slider-item slide">
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+                <div class="widget-item">
+                    <div class="widget-item-header">
+                        <h3>AQUADEAN
+                            <br>
+                            mini
+                        </h3>
+                    </div>
+                    <div class="widget-item-body">
+                        <img src="img/catalog1.png" alt="AQUADEAN
+                            mini">
+                    </div>
+                    <div class="widget-item-footer">
+                        <a class="btn-card">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-slider-item slide">
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+            </div>
+            <div class="catalog-slider-item slide">
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+                <div class="widget-item"></div>
+            </div>
+            <div class="dots" style="text-align: center;">
+
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <br>
+    </div>
+</section>
+
+<section class="follow" id="follow">
+    <div class="box follow-box">
+        <h2>Оставьте телефон, и мы поможем подобрать фильтр именно
+            <br>
+            для вашей ситуации.
+        </h2>
+        <p>Об основных загрязнителях воды от испытательного центра</p>
+        <div class="follow-input">
+            <input type="tel" name="tel" value="" placeholder="Введите телефон">
+            <input type="submit" name="submit" value="Получить консультацию">
+        </div>
+    </div>
+</section>
+
+<section class="advantages" id="advantages">
+    <div class="box advantages-box">
+        <h2>Преимущества
+            <br>
+            универсальных фильтров:
+        </h2>
+        <p>То, за что нас выбирают клиенты</p>
+        <div class="advantages-blocks-container">
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-1.png" alt="...">
+                </div>
+                <h4>инновации</h4>
+                <p>Эксклюзивный фильтрующий материал и инженерные решения, защищенные 9-ю патентами США</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-2.png" alt="...">
+                </div>
+                <h4>экономия</h4>
+                <p>Расход соли в 2,5 раза меньше, чем у обычных фильтров, сброс воды в дренаж меньше в 10 раз</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-3.png" alt="...">
+                </div>
+                <h4>надежность</h4>
+                <p>Срок службы при правильной эксплуатации не менее 10 лет</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-4.png" alt="...">
+                </div>
+                <h4>качество</h4>
+                <p>Сделано в США по новейшим технологиям с контролем качества каждого экземпляра. Имеют 9 патентов
+                    США</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-5.png" alt="...">
+                </div>
+                <h4>универсальность</h4>
+                <p>Одновременное умягчение, удаление железа, марганца, сероводорода и тяжелых металлов</p>
+            </div>
+            <div class="advantages-item">
+                <div class="advantages-item-img">
+                    <img src="img/advantages-block-6.png" alt="...">
+                </div>
+                <h4>компактность</h4>
+                <p>Минимум занимаемого места</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="feedback" id="feedback">
+
+    <div class="video-item-popup hidden">
+        <span class="close-span">&#215</span>
+        <video width="100%" height="80%" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/ogg">
+            Your browser does not support HTML5 video.
+        </video>
+
+    </div>
+
+    <div class="box feedback-box">
+        <h2>отзывы о нас</h2>
+        <p>Что говорят наши клиенты</p>
+
+
+
+        <div class="feedback-video-container slide">
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+        </div>
+        <div class="feedback-video-container slide">
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+        </div>
+        <div class="feedback-video-container slide">
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+            <div class="video-item">
+                <img src="img/video-play.png" alt="play">
+            </div>
+        </div>
+        <br>
+        <div class="video-dots" style="display: inline-block; text-align: center">
+            <span class="video-dot" onclick="currentSlideVideo(1)"></span>
+            <span class="video-dot" onclick="currentSlideVideo(2)"></span>
+            <span class="video-dot" onclick="currentSlideVideo(3)"></span>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <div class="services-bg"></div>
+    <div class="services-bg-2"></div>
+    <div class="box services-box">
+        <h2>дополнительные услуги</h2>
+
+        <div class="service-blocks-container">
+            <div class="service-item">
+                <img src="img/service-1.png" alt="#">
+                <h4>Монтаж и пусконаладка</h4>
+                <a href="#follow" class="btn-card-1">Связаться</a>
+            </div>
+            <div class="service-item">
+                <img src="img/service-2.png" alt="#">
+                <h4>Монтаж и пусконаладка</h4>
+                <a href="#follow" class="btn-card-1">Связаться</a>
+            </div>
+            <div class="service-item">
+                <img src="img/service-3.png" alt="#">
+                <h4>Монтаж и пусконаладка</h4>
+                <a href="#follow" class="btn-card-1">Связаться</a>
+            </div>
+            <div class="service-item">
+                <img src="img/service-4.png" alt="#">
+                <h4>Монтаж и пусконаладка</h4>
+                <a href="#follow" class="btn-card-1">Связаться</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="footer">
+    <div class="box footer-box">
+        <div class="footer-block">
+            <p>Cандель</p>
+        </div>
+        <div class="footer-block">
+            <a href="">Перейти на сайт</a>
+            <a href="">Хим. анализ</a>
+        </div>
+        <div class="footer-block">
+            <a href="mailto:info@letscove.me">info@letscove.me</a>
+            <a href="tel:+73952689109">Тел.:+7 (3952) 689-109</a>
+        </div>
+        <div class="footer-block">
+            <p>г. Иркутск
+                <br>
+                Выставочный зал в с. Хомутово
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.4.0.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
